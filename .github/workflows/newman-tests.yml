@@ -27,5 +27,5 @@ jobs:
         run: ls -lah
 
       - name: Run Postman Collection
-        run: newman run "C:\Users\Sharon Williams\Downloads\newman-testing\newman-testing\.github\workflows" -r json --reporter-json-export results.json
+        run: newman run "C:\Users\Sharon Williams\Downloads\newman-testing\newman-testing\.github" -r json --reporter-json-export results.json
 
