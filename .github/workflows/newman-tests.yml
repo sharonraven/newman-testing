@@ -27,5 +27,5 @@ jobs:
         run: ls -lah
 
       - name: Run Postman Collection
-        run: newman run "API Labs.postman_test_run.json" -r json --reporter-json-export results.json
+        run: newman run "collection.json" -e environment.json -r json --reporter-json-export results.json
 
